@@ -2,6 +2,12 @@
 
 Meu portfólio pessoal, desenvolvido para apresentar meus projetos, tecnologias e minha evolução como estudante de Análise e Desenvolvimento de Sistemas.
 
+## Portfólio online
+
+**Acesse o projeto publicado:**
+
+https://portfolio-ecru-six-47.vercel.app
+
 ## Sobre o projeto
 
 O portfólio reúne informações sobre minha trajetória, projetos desenvolvidos e planejados, além das tecnologias que fazem parte dos meus estudos.
