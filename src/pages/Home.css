@@ -1,0 +1,297 @@
+.home {
+  width: 100%;
+}
+
+.hero {
+  width: min(1200px, 88%);
+  min-height: calc(100vh - 120px);
+  margin: 0 auto;
+
+  display: grid;
+  grid-template-columns: 1.15fr 0.85fr;
+  align-items: center;
+  gap: 70px;
+}
+
+/* TEXTO */
+
+.hero-content {
+  max-width: 680px;
+}
+
+.hero-intro {
+  display: inline-block;
+  margin-bottom: 20px;
+
+  color: var(--primary-dark);
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}
+
+.hero h1 {
+  max-width: 700px;
+  margin-bottom: 24px;
+
+  color: var(--text);
+  font-size: clamp(3rem, 6vw, 5.4rem);
+  line-height: 0.98;
+  letter-spacing: -0.055em;
+}
+
+.hero h1 span {
+  color: var(--primary);
+}
+
+.hero-content > p {
+  max-width: 580px;
+  margin-bottom: 32px;
+
+  color: var(--text-soft);
+  font-size: 1.08rem;
+  line-height: 1.8;
+}
+
+/* BOTÕES */
+
+.hero-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  margin-bottom: 32px;
+}
+
+.button-primary,
+.button-secondary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  min-height: 48px;
+  padding: 0 22px;
+
+  border-radius: 12px;
+  font-weight: 600;
+
+  transition:
+    transform 0.2s ease,
+    background-color 0.2s ease,
+    border-color 0.2s ease;
+}
+
+.button-primary {
+  background-color: var(--primary);
+  color: var(--bg);
+}
+
+.button-primary:hover {
+  transform: translateY(-2px);
+  background-color: var(--primary-dark);
+}
+
+.button-secondary {
+  border: 1px solid var(--border);
+  background-color: var(--surface);
+  color: var(--text);
+}
+
+.button-secondary:hover {
+  transform: translateY(-2px);
+  border-color: var(--primary);
+}
+
+/* TECNOLOGIAS */
+
+.hero-tech {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.hero-tech span {
+  padding: 8px 13px;
+
+  border: 1px solid var(--border);
+  border-radius: 999px;
+
+  background-color: var(--surface);
+  color: var(--text-soft);
+
+  font-size: 0.82rem;
+  font-weight: 600;
+}
+
+/* CARD VISUAL */
+
+.hero-visual {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.code-card {
+  position: relative;
+
+  width: min(390px, 80vw);
+  min-height: 340px;
+  padding: 24px;
+
+  background-color: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 28px;
+
+  box-shadow: 0 30px 80px rgba(38, 53, 45, 0.12);
+
+  transform: rotate(2deg);
+
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+.code-card:hover {
+  transform: rotate(0deg) translateY(-5px);
+  box-shadow: 0 35px 90px rgba(38, 53, 45, 0.16);
+}
+
+/* BOLINHAS DO CARD */
+
+.code-card-header {
+  display: flex;
+  gap: 8px;
+
+  padding-bottom: 20px;
+
+  border-bottom: 1px solid var(--border);
+}
+
+.code-card-header span {
+  width: 10px;
+  height: 10px;
+
+  border-radius: 50%;
+
+  background-color: var(--primary);
+}
+
+.code-card-header span:nth-child(2) {
+  background-color: var(--accent);
+}
+
+.code-card-header span:nth-child(3) {
+  background-color: var(--text-soft);
+}
+
+/* CONTEÚDO DO CARD */
+
+.code-content {
+  padding: 50px 25px 30px;
+}
+
+.code-tag {
+  color: var(--primary);
+
+  font-family: monospace;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.code-content h2 {
+  margin: 14px 0;
+
+  color: var(--text);
+
+  font-size: 2.8rem;
+  letter-spacing: -0.04em;
+}
+
+.code-text {
+  margin-bottom: 18px;
+
+  color: var(--text-soft);
+
+  font-family: monospace;
+  font-size: 0.95rem;
+  line-height: 1.7;
+}
+
+/* DECORAÇÕES */
+
+.decoration {
+  position: absolute;
+
+  color: var(--accent);
+
+  pointer-events: none;
+}
+
+.decoration-one {
+  top: -28px;
+  right: 35px;
+
+  font-size: 2rem;
+}
+
+.decoration-two {
+  bottom: 30px;
+  left: -35px;
+
+  font-size: 1.4rem;
+}
+
+.decoration-three {
+  right: -25px;
+  bottom: 70px;
+
+  color: var(--primary);
+
+  font-size: 2.8rem;
+
+  opacity: 0.55;
+}
+
+/* RESPONSIVO */
+
+@media (max-width: 850px) {
+  .hero {
+    grid-template-columns: 1fr;
+    gap: 45px;
+
+    padding: 70px 0;
+  }
+
+  .hero h1 {
+    font-size: clamp(2.8rem, 13vw, 4.5rem);
+  }
+
+  .hero-visual {
+    order: -1;
+  }
+
+  .code-card {
+    width: min(350px, 85vw);
+  }
+}
+
+@media (max-width: 520px) {
+  .hero {
+    width: 90%;
+  }
+
+  .hero-buttons {
+    flex-direction: column;
+  }
+
+  .button-primary,
+  .button-secondary {
+    width: 100%;
+  }
+
+  .code-content {
+    padding: 40px 15px 20px;
+  }
+
+  .code-content h2 {
+    font-size: 2.2rem;
+  }
+}
