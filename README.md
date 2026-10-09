@@ -6,7 +6,7 @@ Meu portfólio pessoal, desenvolvido para apresentar meus projetos, tecnologias 
 
 **Acesse o projeto publicado:**
 
-https://portfolio-sthe4.vercel.app
+https://portfolio-sthefanie.vercel.app
 
 ## Sobre o projeto
 
