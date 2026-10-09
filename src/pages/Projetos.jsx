@@ -28,6 +28,7 @@ function Projetos() {
 
             <div className="projeto-visual">
               <div className="visual-browser">
+
                 <div className="visual-browser-top">
                   <span></span>
                   <span></span>
@@ -47,6 +48,7 @@ function Projetos() {
                     <span></span>
                   </div>
                 </div>
+
               </div>
             </div>
 
@@ -77,7 +79,7 @@ function Projetos() {
 
               <div className="projeto-links">
                 <a
-                  href="https://portfolio-sthe4.vercel.app"
+                  href="https://portfolio-sthefanie.vercel.app"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -96,11 +98,13 @@ function Projetos() {
             </div>
           </article>
 
+
           {/* 02 — FINORA */}
           <article className="projeto-card projeto-card-reverse">
 
             <div className="projeto-visual">
               <div className="visual-finora">
+
                 <span className="visual-small">
                   BOOTCAMP SANTANDER
                 </span>
@@ -115,6 +119,7 @@ function Projetos() {
                   <span></span>
                   <span></span>
                 </div>
+
               </div>
             </div>
 
@@ -153,6 +158,7 @@ function Projetos() {
 
             </div>
           </article>
+
 
           {/* 03 — AGENDAMENTO */}
           <article className="projeto-card">
@@ -205,6 +211,7 @@ function Projetos() {
 
             </div>
           </article>
+
 
           {/* 04 — SISTEMA DE ESTUDOS */}
           <article className="projeto-card projeto-card-reverse">
@@ -259,6 +266,7 @@ function Projetos() {
             </div>
           </article>
 
+
           {/* 05 — CHAT COM IA */}
           <article className="projeto-card">
 
@@ -306,6 +314,7 @@ function Projetos() {
             </div>
           </article>
 
+
           {/* 06 — PDFs */}
           <article className="projeto-card projeto-card-reverse">
 
@@ -352,6 +361,7 @@ function Projetos() {
             </div>
           </article>
 
+
           {/* 07 — DASHBOARD */}
           <article className="projeto-card">
 
@@ -363,6 +373,7 @@ function Projetos() {
                 </span>
 
                 <div className="dashboard-numbers">
+
                   <div>
                     <strong>128</strong>
                     <span>Registros</span>
@@ -372,6 +383,7 @@ function Projetos() {
                     <strong>+24%</strong>
                     <span>Crescimento</span>
                   </div>
+
                 </div>
 
                 <div className="dashboard-bars">
@@ -411,6 +423,7 @@ function Projetos() {
 
             </div>
           </article>
+
 
           {/* 08 — HERO CLICKER */}
           <article className="projeto-card projeto-card-reverse">
