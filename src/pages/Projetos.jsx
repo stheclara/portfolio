@@ -77,7 +77,7 @@ function Projetos() {
 
               <div className="projeto-links">
                 <a
-                  href="https://portfolio-ecru-six-47.vercel.app"
+                  href="https://portfolio-sthe4.vercel.app"
                   target="_blank"
                   rel="noreferrer"
                 >
