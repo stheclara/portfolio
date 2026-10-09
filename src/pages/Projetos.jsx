@@ -21,7 +21,6 @@ function Projetos() {
           </p>
         </header>
 
-
         <div className="projetos-lista">
 
           {/* 01 — PORTFÓLIO */}
@@ -77,18 +76,25 @@ function Projetos() {
               </div>
 
               <div className="projeto-links">
-                <a href="#">
+                <a
+                  href="https://portfolio-ecru-six-47.vercel.app"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   Ver projeto <span>↗</span>
                 </a>
 
-                <a href="#">
+                <a
+                  href="https://github.com/stheclara/portfolio"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   GitHub <span>↗</span>
                 </a>
               </div>
 
             </div>
           </article>
-
 
           {/* 02 — FINORA */}
           <article className="projeto-card projeto-card-reverse">
@@ -148,7 +154,6 @@ function Projetos() {
             </div>
           </article>
 
-
           {/* 03 — AGENDAMENTO */}
           <article className="projeto-card">
 
@@ -200,7 +205,6 @@ function Projetos() {
 
             </div>
           </article>
-
 
           {/* 04 — SISTEMA DE ESTUDOS */}
           <article className="projeto-card projeto-card-reverse">
@@ -255,7 +259,6 @@ function Projetos() {
             </div>
           </article>
 
-
           {/* 05 — CHAT COM IA */}
           <article className="projeto-card">
 
@@ -303,7 +306,6 @@ function Projetos() {
             </div>
           </article>
 
-
           {/* 06 — PDFs */}
           <article className="projeto-card projeto-card-reverse">
 
@@ -349,7 +351,6 @@ function Projetos() {
 
             </div>
           </article>
-
 
           {/* 07 — DASHBOARD */}
           <article className="projeto-card">
@@ -410,7 +411,6 @@ function Projetos() {
 
             </div>
           </article>
-
 
           {/* 08 — HERO CLICKER */}
           <article className="projeto-card projeto-card-reverse">
