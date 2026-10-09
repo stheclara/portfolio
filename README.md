@@ -6,7 +6,7 @@ Meu portfólio pessoal, desenvolvido para apresentar meus projetos, tecnologias 
 
 **Acesse o projeto publicado:**
 
-https://portfolio-ecru-six-47.vercel.app
+https://portfolio-sthe4.vercel.app
 
 ## Sobre o projeto
 
