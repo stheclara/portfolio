@@ -98,7 +98,6 @@ function Projetos() {
             </div>
           </article>
 
-
           {/* 02 — FINORA */}
           <article className="projeto-card projeto-card-reverse">
 
@@ -159,8 +158,7 @@ function Projetos() {
             </div>
           </article>
 
-
-          {/* 03 — AGENDAMENTO */}
+          {/* 03 — CLÍNICA LUME */}
           <article className="projeto-card">
 
             <div className="projeto-visual">
@@ -172,7 +170,7 @@ function Projetos() {
                 </div>
 
                 <div className="calendar-title">
-                  <span>Agenda</span>
+                  <span>Clínica Lume</span>
                   <strong>24</strong>
                 </div>
 
@@ -190,28 +188,47 @@ function Projetos() {
               <div className="projeto-meta">
                 <span className="projeto-numero">03</span>
 
-                <span className="projeto-status desenvolvimento">
-                  Em desenvolvimento
+                <span className="projeto-status concluido">
+                  Concluído
                 </span>
               </div>
 
-              <h2>Sistema de Agendamento</h2>
+              <h2>Clínica Lume</h2>
 
               <p>
-                Sistema de gestão de agendamentos para uma clínica de saúde,
-                pensado para organizar pacientes, profissionais, horários,
-                atendimentos e informações administrativas.
+                Sistema de agendamento para uma clínica fictícia, com fluxo
+                completo para pacientes e área administrativa para gerenciamento
+                de consultas, pacientes, profissionais e horários.
               </p>
 
               <div className="projeto-tech">
-                <span>Excel</span>
-                <span>Gestão de Dados</span>
-                <span>Dashboard</span>
+                <span>React</span>
+                <span>JavaScript</span>
+                <span>React Router</span>
+                <span>CSS</span>
+                <span>LocalStorage</span>
+              </div>
+
+              <div className="projeto-links">
+                <a
+                  href="https://lume-saude.vercel.app"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Ver projeto <span>↗</span>
+                </a>
+
+                <a
+                  href="https://github.com/stheclara/sistema-agendamento"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  GitHub <span>↗</span>
+                </a>
               </div>
 
             </div>
           </article>
-
 
           {/* 04 — SISTEMA DE ESTUDOS */}
           <article className="projeto-card projeto-card-reverse">
@@ -266,7 +283,6 @@ function Projetos() {
             </div>
           </article>
 
-
           {/* 05 — CHAT COM IA */}
           <article className="projeto-card">
 
@@ -314,7 +330,6 @@ function Projetos() {
             </div>
           </article>
 
-
           {/* 06 — PDFs */}
           <article className="projeto-card projeto-card-reverse">
 
@@ -360,7 +375,6 @@ function Projetos() {
 
             </div>
           </article>
-
 
           {/* 07 — DASHBOARD */}
           <article className="projeto-card">
@@ -423,7 +437,6 @@ function Projetos() {
 
             </div>
           </article>
-
 
           {/* 08 — HERO CLICKER */}
           <article className="projeto-card projeto-card-reverse">
