@@ -135,22 +135,32 @@ function Projetos() {
               <h2>Finora</h2>
 
               <p>
-                Projeto desenvolvido durante o Bootcamp Santander,
-                voltado para organização e educação financeira.
+                Aplicação de educação financeira desenvolvida durante o
+                Bootcamp Santander, com simulação personalizada, histórico
+                e geração de insights financeiros com Inteligência Artificial.
               </p>
 
               <div className="projeto-tech">
                 <span>HTML</span>
                 <span>CSS</span>
                 <span>JavaScript</span>
+                <span>IA</span>
               </div>
 
               <div className="projeto-links">
-                <a href="#">
+                <a
+                  href="https://finora-financas.vercel.app"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   Ver projeto <span>↗</span>
                 </a>
 
-                <a href="#">
+                <a
+                  href="https://github.com/stheclara/desafio-educador-financeiro-ia"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   GitHub <span>↗</span>
                 </a>
               </div>
